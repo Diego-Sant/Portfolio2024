@@ -27,7 +27,7 @@ module.exports = {
 				DEFAULT: '#00ff99',
 				hover: '#00e187'
 			},
-			secundary: "#03ebeb",
+			secondary: "#03ebeb",
 		},
   		keyframes: {
 			"accordion-down": {

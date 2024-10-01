@@ -25,7 +25,7 @@ const Loading = () => {
                 <motion.div key={index} variants={loadingAnimation} initial="initial"
                     animate="animate" exit="exit" transition={{
                     duration: 0.4, ease: "easeInOut", delay: reverseIndex(index) * 0.1,
-                }} className="h-full w-full bg-secundary relative" />
+                }} className="h-full w-full bg-secondary relative" />
             )
         })}
     </>

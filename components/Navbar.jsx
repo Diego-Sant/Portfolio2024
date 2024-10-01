@@ -34,9 +34,9 @@ const Navbar = () => {
         {links.map((link, index) => {
             return (
 
-                <Link className={`hover:text-secundary font-medium transition-all
+                <Link className={`hover:text-secondary font-medium transition-all
                     ${link.path === pathname && 
-                        "text-secundary border-b-[1px] border-secundary"}`
+                        "text-secondary border-b-[1px] border-secondary"}`
                 } key={index} href={link.path}>
 
                     {link.name}

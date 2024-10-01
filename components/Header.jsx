@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { Button } from "./ui/button"
 import Navbar from "./Navbar"
+import MobileNav from "./MobileNav"
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
             <h1 className="text-4xl font-semibold">
-                Diego<span className="text-secundary blinking-cursor -ml-1">|</span>
+                Diego<span className="text-secondary blinking-cursor -ml-1">|</span>
             </h1>
         </Link>
 
@@ -21,7 +22,7 @@ const Header = () => {
         </div>
 
         <div className="xl:hidden">
-            mobile
+          <MobileNav />
         </div>
       </div>
     </header>
