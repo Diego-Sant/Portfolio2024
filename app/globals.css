@@ -8,3 +8,13 @@
     @apply font-primary bg-primary text-white leading-loose;
   }
 }
+
+.blinking-cursor {
+  animation: blink 1.8s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
