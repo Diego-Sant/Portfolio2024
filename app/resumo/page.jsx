@@ -48,8 +48,8 @@ const about = {
       fieldValue: "Magé, RJ - Brasil"
     },
     {
-      fieldName: "CNH",
-      fieldValue: "08572477608"
+      fieldName: "Carteira",
+      fieldValue: "Categoria B"
     },
   ]
 }
