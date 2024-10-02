@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import axios from "axios";
+import { getCertificatesCount } from "@/app/certificados/page";
 
-const Stats = () => {
+const Stats = ({ certificatesCount }) => {
   const [repos, setRepos] = useState(0);
   const [commits, setCommits] = useState(0);
 
@@ -30,7 +31,7 @@ const Stats = () => {
 
   const stats = [
     {
-      num: 14,
+      num: certificatesCount,
       text: "Certificados"
     },
     {

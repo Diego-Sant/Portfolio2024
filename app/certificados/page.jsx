@@ -89,7 +89,17 @@ const certificates = [
     description: "Domínio do Next.js junto ao React para desenvolvimento de aplicações web otimizadas e escaláveis. Carga horária: 28h.",
     href: "https://www.udemy.com/certificate/UC-71fdd649-57e4-4a5b-8bb0-3d7727c698cb/"
   },
+  {
+    num: '15',
+    title: "Cambridge English in ESOL Internacional",
+    description: "Certificação internacional que valida habilidades em inglês em contextos acadêmicos e profissionais.",
+    href: "/cambridgeExam.pdf"
+  },
 ]
+
+export const getCertificatesCount = () => {
+  return certificates.length;
+};
 
 const Certificate = () => {
   return (

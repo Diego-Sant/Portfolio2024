@@ -1,12 +1,15 @@
 "use client";
 
+import Link from "next/link";
+
+import { useEffect, useState } from "react";
+import { FiDownload } from "react-icons/fi";
+
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button"
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import { FiDownload } from "react-icons/fi";
+import { getCertificatesCount } from "./certificados/page";
 
 const Home = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -37,6 +40,8 @@ const Home = () => {
     return () => clearInterval(startTyping);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const certificatesCount = getCertificatesCount();
 
   return (
     <section className="h-full">
@@ -77,7 +82,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats />
+      <Stats certificatesCount={certificatesCount} />
     </section>
   )
 }
