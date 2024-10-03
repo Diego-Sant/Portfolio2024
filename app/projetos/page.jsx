@@ -74,7 +74,7 @@ const projects = [
       {name: "Shadcn UI"}, {name: "Convex"}, {name: "Desenvolvimento de API"}, 
       {name: "Git"}, {name: "Clerk"}, {name: "Edgestore"}
     ],
-    image: "/projects/WebPad.png",
+    image: "/projects/Webpad.png",
     live: "https://web-pad-five.vercel.app/",
     github: "https://github.com/Diego-Sant/WebPad"
   },
