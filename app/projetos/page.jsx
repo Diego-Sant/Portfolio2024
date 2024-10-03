@@ -41,6 +41,18 @@ const projects = [
     github: "https://github.com/Diego-Sant/MVP-Front-end-Avancado-GameSavings"
   },
   {
+    category: "Front-End",
+    title: "Meu Portfólio",
+    description: "Portfólio pessoal projetado para exibir meus projetos e habilidades em desenvolvimento. Criado com React e Next.js, apresenta uma interface limpa e responsiva.",
+    stack: [
+      {name: "React"}, {name: "NextJS"}, {name: "TailwindCSS"}, {name: "Git"},
+      {name: "Framer Motion"}, {name: "Shadcn UI"}
+    ],
+    image: "/projects/MeuPortfolio.png",
+    live: "https://diegosantana-portfolio.vercel.app/",
+    github: "https://github.com/Diego-Sant/Portfolio2024"
+  },
+  {
     category: "Full-Stack",
     title: "TriviaQuest",
     description: "Uma plataforma de quizzes interativos sobre diversos temas, incluindo animes, filmes e séries. Desafie seus conhecimentos e divirta-se com perguntas de diferentes categorias.",
