@@ -22,7 +22,7 @@ const projects = [
     stack: [
       {name: "React"}, {name: "JavaScript"}, {name: "TailwindCSS"}, 
       {name: "Photoshop"}, {name: "MongoDB"}, {name: "Prisma"}, {name: "Node JS"},
-      {name: "Dockerfile"}, {name: "Git"}
+      {name: "Docker"}, {name: "Git"}
     ],
     image: "/projects/GarageLink.png",
     live: "https://garage-link.vercel.app/",
@@ -239,7 +239,7 @@ const projects = [
   {
     category: "Front-End",
     title: "Adivinhe o número",
-    description: "Jogo de adivinhação com contagem de tentativas, vitórias e derrotas,",
+    description: "Jogo de adivinhação com contagem de tentativas, vitórias e derrotas.",
     stack: [
       {name: "HTML"}, {name: "CSS"}, {name: "JavaScript"},
       {name: "Git"}
