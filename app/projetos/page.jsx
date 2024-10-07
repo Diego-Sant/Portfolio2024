@@ -17,6 +17,19 @@ import SliderButtons from "@/components/SliderButtons";
 const projects = [
   {
     category: "Full-Stack",
+    title: "GarageLink",
+    description: "Um site de compra e venda de carros que facilita a comunicação direta entre vendedores e compradores. Inspirado em plataformas como OLX e Webmotors, o projeto não realiza transações, mas permite a interação entre usuários em um nível global.",
+    stack: [
+      {name: "React"}, {name: "JavaScript"}, {name: "TailwindCSS"}, 
+      {name: "Photoshop"}, {name: "MongoDB"}, {name: "Prisma"}, {name: "Node JS"},
+      {name: "Dockerfile"}, {name: "Git"}
+    ],
+    image: "/projects/GarageLink.png",
+    live: "https://garage-link.vercel.app/",
+    github: "https://github.com/Diego-Sant/MVP-GarageLink-DesenvolvimentoBackEnd"
+  },
+  {
+    category: "Full-Stack",
     title: "Gameverse",
     description: "Uma plataforma dedicada a fornecer informações detalhadas sobre jogos, incluindo lançamentos recentes e futuros. Os jogos são organizados por categorias, desde modos de jogo até plataformas.",
     stack: [
