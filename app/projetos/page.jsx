@@ -42,6 +42,19 @@ const projects = [
   },
   {
     category: "Full-Stack",
+    title: "PokéVault",
+    description: "PokéVault é uma plataforma feita em Angular para colecionadores de cartas Pokémon, com mais de 100 cartas. Oferece filtragem por preço, ordem alfabética e mais. Além de funcionalidade de editar, excluir e de pesquisar por nome.",
+    stack: [
+      {name: "Angular"}, {name: "TypeScript"}, {name: "SCSS"}, {name: "HTML"},
+      {name: "Photoshop"}, {name: "MongoDB"}, {name: "Prisma"}, {name: "Node JS"},
+      {name: "Git"}
+    ],
+    image: "/projects/PokéVault.png",
+    live: "https://poke-vault-alpha.vercel.app/",
+    github: "https://github.com/Diego-Sant/Poke-Vault"
+  },
+  {
+    category: "Full-Stack",
     title: "GameSavings",
     description: "MVP desenvolvido para a pós-graduação, focado em um site informativo que ajuda usuários a encontrar os melhores preços de jogos. A plataforma compara diferentes lojas e oferece as melhores ofertas disponíveis.",
     stack: [

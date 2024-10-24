@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 import {FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaGitAlt,
-FaFigma, FaNodeJs, FaBootstrap, FaJava, FaPython} from "react-icons/fa";
+FaFigma, FaNodeJs, FaBootstrap, FaJava, FaPython, FaAngular} from "react-icons/fa";
 
 import {SiTailwindcss, SiNextdotjs, SiTypescript, SiPlanetscale,
 SiPrisma, SiMysql, SiPostgresql, SiMongodb, SiSupabase,
@@ -123,6 +123,10 @@ const skills = {
     {
       icon: <FaReact />,
       name: "React",
+    },
+    {
+      icon: <FaAngular />,
+      name: "Angular",
     },
     {
       icon: <SiTypescript />,
