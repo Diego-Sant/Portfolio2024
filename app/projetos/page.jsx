@@ -17,6 +17,19 @@ import SliderButtons from "@/components/SliderButtons";
 const projects = [
   {
     category: "Full-Stack",
+    title: "Nimbus",
+    description: "Uma plataforma segura para armazenamento em nuvem, que permite aos usuários organizar, compartilhar e acessar seus arquivos de qualquer lugar. Com um foco em simplicidade e proteção, oferece uma experiência prática e acessível.",
+    stack: [
+      {name: "React"}, {name: "TypeScript"}, {name: "NextJS"},
+      {name: "TailwindCSS"}, {name: "Photoshop"}, {name: "Appwrite"},
+      {name: "Shadcn UI"}, {name: "Figma"}, {name: "Git"}
+    ],
+    image: "/projects/Nimbus.png",
+    live: "https://nimbus-storage.vercel.app/",
+    github: "https://github.com/Diego-Sant/Nimbus"
+  },
+  {
+    category: "Full-Stack",
     title: "GarageLink",
     description: "Um site de compra e venda de carros que facilita a comunicação direta entre vendedores e compradores. Inspirado em plataformas como OLX e Webmotors, o projeto não realiza transações, mas permite a interação entre usuários em um nível global.",
     stack: [
